@@ -8,7 +8,7 @@ Use cases:
 5. Check user’s own schedule for given timeframe
 
 Assumptions:
-Only valid users can login.
-Users can not book multiple classes that overlap timings.
-Classes can be booked only if seats are available.
-Back-End database is not needed. In memory data structures like List, Queue, Map etc can be used for the purpose of that.
+1. Only valid users can login.
+2. Users can not book multiple classes that overlap timings.
+3. Classes can be booked only if seats are available.
+4. Back-End database is not needed. In memory data structures like List, Queue, Map etc can be used for the purpose of that.
